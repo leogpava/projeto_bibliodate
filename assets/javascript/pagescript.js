@@ -1,3 +1,30 @@
+let contador = document.getElementById("contador");
+let date = new Date("2023-04-24");
+
+let hoje = new Date();
+let diffTime = hoje - date;
+let diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); // Converte milissegundos para dias
+
+let anos = hoje.getFullYear() - date.getFullYear();
+let meses = hoje.getMonth() - date.getMonth();
+let dias = hoje.getDate() - date.getDate();
+
+if (dias < 0) {
+    meses--;
+    dias += new Date(hoje.getFullYear(), hoje.getMonth(), 0).getDate(); // Dias no mês anterior
+}
+if (meses < 0) {
+    anos--;
+    meses += 12;
+}
+
+tempo.innerText = `${diffDays} dias.`;
+
+function change() {
+    tempo.innerText = `${anos} ano(s), ${meses} meses e ${dias} dias.`;
+    document.getElementById("foot").innerHTML = ""
+}
+
 let secdate = document.getElementById("res");
 let article = secdate.querySelector("article");
 let data = document.getElementById("data");
