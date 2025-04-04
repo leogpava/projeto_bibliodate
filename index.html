@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo & Nic | 2 ANOS</title>
+    <link rel="stylesheet" href="assets/style/style.css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <article id="msg">
+            <h1>Leo & Nic | 2 ANOS</h1>
+            <p>Preencha corretamente o formulário utilizando o usuário e a senha para desbloquear o nosso site.</p>
+        </article>
+    </section>
+    <main>
+        <article id="form">
+            <form action="assets/pages/home.html" method="post">
+
+                <div class="input-box">
+                    <input type="text" name="username" id="username" class="botao" required>
+                    <label for="username" id="username">Usuário</label>
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="senha" name="senha" class="botao" required>
+                    <label for="senha" id="senha">Senha</label>
+                    <span class="material-symbols-outlined" class="icon">
+                        lock
+                        </span>
+                </div class="input-box">
+
+                <button type="button" onclick="entrar()">Entrar</button>
+            </form>
+            
+        </article>
+    </main>
+</body>
+<script>
+
+function entrar() {
+    const user = document.getElementById("username")
+    const senha = document.getElementById("senha")
+    if (user.value == "leo" && senha.value == "nic") {
+        window.location.href = "assets/pages/home.html"
+    } else {
+        window.alert("[ERRO] Usuário ou senha incorretos.")
+    }
+}
+
+</script>
+</html>

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lexend+Deca:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ribeye&display=swap');
+@import url(../fonts/RELIGATH-Demo.otf);
+
+/*Milchella Font. Swanley Free Font. Borisna Font */
+
+:root {
+    --primary-color: #e68bbe;
+    --secondary-color: #eea1cd;
+    --accent-color:  #f4b8da;
+    --text-color: #f9cee7;
+    --background-color: #fde4f2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lexend Deca";
+}
+
+body {
+    background-color: rgb(233, 143, 177);
+    background: radial-gradient(circle, #f4b8da 0%, #f4b8 100%); /* Adicione esta linha */
+}
+article#msg {
+    margin-top: 110px;
+    text-align: center;
+    line-height: 120%;
+    color: white;
+    font-weight: 100;
+}
+article#msg > h1 {
+    font-family: "Cinzel";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+article#msg > p {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 360px;
+    font-weight: 300;
+}
+article#form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70vw;
+}
+.input-box {
+    background: transparent;
+    position: relative;
+    border: none;
+    padding: 2px;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+.botao {
+    background: transparent;
+    border: none;
+}
+.input-box label {
+    font-family:"Lexend Deca";
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 1px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label, .input-box input:valid~label {
+    top: -1px;
+}
+.input-box input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 200;
+    color: white;
+    padding: 0px;
+}
+button {
+    color: #e68bbe;
+    padding: 10px;
+    margin: auto;
+    font-size: 0.95em;
+    width: 100% ;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #ffff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+button:hover {
+    height: 60px;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    bottom: 10px;
+}
+
+
