@@ -34,12 +34,13 @@ article#msg > h1 {
     font-family: "Cinzel";
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 2.2em;
+    font-size: 2.1em;
     margin-bottom: 10px;
     padding: 10px;
 }
 article#msg > p {
     margin: auto;
+    font-size: 0.9em;
     margin-bottom: 50px;
     width: 360px;
     font-weight: 300;
