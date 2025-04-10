@@ -21,8 +21,10 @@ if (meses < 0) {
 tempo.innerText = `${diffDays} dias.`;
 
 function change() {
+    tempo.style.fontSize = "18px"; 
+    tempo.style.fontWeight = "300"
     tempo.innerText = `${anos} ano(s), ${meses} meses e ${dias} dias.`;
-    document.getElementById("foot").innerHTML = ""
+    document.getElementById("foot").innerHTML = "";
 }
 
 let secdate = document.getElementById("res");
@@ -34,823 +36,319 @@ let imagem = document.getElementById("innerimg")
 let texto = document.getElementById("para")
 let video = document.getElementById("video")
 
+// Mapeamento de datas e seus respectivos conteúdos
+const dateMap = {
+    "2023-04-28": {
+        diaTexto: "Date 28/04/2023 💗",
+        textoHTML: `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
+                    <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
+                    <p>Aqui temos o único registro decente desse dia:</p>`,
+        videoSrc: "../videos/vinteoito.mp4",
+        imagemSrc: null
+    },
+    "2023-05-11": {
+        diaTexto: "Date 11/05/2023 💗",
+        textoHTML: `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
+                    <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
+                    <p>Aqui temos o único registro decente desse dia:</p>`,
+        videoSrc: null,
+        imagemSrc: "../images/date1.png"
+    },
+    "2023-05-20": {
+        diaTexto: "Date 20/05/2023 💗",
+        textoHTML: `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
+                    <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
+                    <p>Aqui temos o único registro decente desse dia:</p>`,
+        videoSrc: null,
+        imagemSrc: "../images/date2.png"
+    },
+    "2023-05-27": {
+        diaTexto: "Date 27/05/2023 💗",
+        textoHTML: `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
+                    <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
+                    <p>Aqui temos o único registro decente desse dia:</p>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-06-01": {
+        diaTexto: "Date 01/06/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date4.png"
+    },
+    "2023-06-08": {
+        diaTexto: "Date 08/06/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-06-12": {
+        diaTexto: "Date 12/06/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-06-17": {
+        diaTexto: "Date 17/06/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-06-22": {
+        diaTexto: "Date 22/06/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-06-24": {
+        diaTexto: "Date 24/06/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-06-29": {
+        diaTexto: "Date 29/06/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-07-07": {
+        diaTexto: "Date 07/07/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-07-08": {
+        diaTexto: "Date 08/07/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-07-09": {
+        diaTexto: "Date 09/07/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-07-10": {
+        diaTexto: "Date 10/07/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-07-20": {
+        diaTexto: "Date 20/07/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-07-23": {
+        diaTexto: "Date 23/07/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-07-26": {
+        diaTexto: "Date 26/07/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-05": {
+        diaTexto: "Date 05/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-08": {
+        diaTexto: "Date 08/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-11": {
+        diaTexto: "Date 11/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-15": {
+        diaTexto: "Date 15/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-18": {
+        diaTexto: "Date 18/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-20": {
+        diaTexto: "Date 20/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-26": {
+        diaTexto: "Date 26/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-08-30": {
+        diaTexto: "Date 30/08/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-09-05": {
+        diaTexto: "Date 05/09/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-09-08": {
+        diaTexto: "Date 08/09/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-09-15": {
+        diaTexto: "Date 15/09/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-09-28": {
+        diaTexto: "Date 28/09/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-10-12": {
+        diaTexto: "Date 12/10/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-10-13": {
+        diaTexto: "Date 13/10/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-10-28": {
+        diaTexto: "Date 28/10/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-10-30": {
+        diaTexto: "Date 30/10/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-11-03": {
+        diaTexto: "Date 03/11/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-11-08": {
+        diaTexto: "Date 08/11/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-11-14": {
+        diaTexto: "Date 14/11/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-11-19": {
+        diaTexto: "Date 19/11/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-11-20": {
+        diaTexto: "Date 20/11/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-12-04": {
+        diaTexto: "Date 04/12/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-12-20": {
+        diaTexto: "Date 20/12/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2023-12-25": {
+        diaTexto: "Date 25/12/2023 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-01-10": {
+        diaTexto: "Date 10/01/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    }
+};
+
+// Função para exibir os dados do "date"
+function exibirDate(diaTexto, textoHTML, videoSrc = null, imagemSrc = null) {
+    sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
+    article.style.display = "block";
+    secdate.style.display = "block";
+    sucesso.style.display = "block";
+
+    dia.innerHTML = `<p>${diaTexto}</p>`;
+    texto.innerHTML = textoHTML;
+
+    if (videoSrc) {
+        video.style.display = "block";
+        video.src = videoSrc;
+    } else {
+        video.style.display = "none";
+    }
+
+    if (imagemSrc) {
+        imagem.style.display = "block";
+        imagem.src = imagemSrc;
+        imagem.style = "width: 100%;";
+    } else {
+        imagem.style.display = "none";
+    }
+}
+
+// Função principal chamada ao clicar
 function clicar() {
     const dateValue = data.value;
     data.value = ""; // Limpa o campo de data
 
-    switch (dateValue) {
-        case "2023-04-28":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-
-            dia.innerHTML = `<p>Date 28/04/2023 💗</p>`;
-            video.src = "../videos/vinteoito.mp4";
-            texto.innerHTML = `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
-                               <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
-                               <p>Aqui temos o único registro decente desse dia:</p>`;
-            imagem.src = "";
-            break;
-
-        case "2023-05-11":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            video.style.display = "none";
-            texto.innerHTML = `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
-                               <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
-                               <p>Aqui temos o único registro decente desse dia:</p>`;
-            imagem.src = "../images/date1.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 11/05/2023 💗</p>`;
-            break;
-
-        case "2023-05-20":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
-                               <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
-                               <p>Aqui temos o único registro decente desse dia:</p>`;
-            video.style.display = "none";
-            imagem.src = "../images/date2.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 20/05/2023 💗</p>`;
-            break;
-
-        case "2023-05-27":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
-                               <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
-                               <p>Aqui temos o único registro decente desse dia:</p>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 27/05/2023 💗</p>`;
-            break;
-
-        case "2023-06-01":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date4.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 01/06/2023 💗</p>`;
-            break;
-
-        case "2023-06-08":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 08/06/2023 💗</p>`;
-            break;
-
-        case "2023-06-12":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 12/06/2023 💗</p>`;
-            break;
-
-        case "2023-06-17":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 17/06/2023 💗</p>`;
-            break;
-
-        case "2023-06-22":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 22/06/2023 💗</p>`;
-            break;
-
-        case "2023-06-24":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 24/06/2023 💗</p>`;
-            break;
-            
-        case "2023-06-29":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 29/06/2023 💗</p>`;
-            break;
-
-        case "2023-07-07":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 07/07/2023 💗</p>`;
-            break;
-
-        case "2023-07-08":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 08/07/2023 💗</p>`;
-            break;
-
-        case "2023-07-09":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 09/07/2023 💗</p>`;
-            break;
-
-        case "2023-07-10":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 10/07/2023 💗</p>`;
-            break;
-            
-        case "2023-07-20":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 20/07/2023 💗</p>`;
-            break;
-
-        case "2023-07-23":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 23/07/2023 💗</p>`;
-            break;
-
-        case "2023-07-26":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 26/07/2023 💗</p>`;
-            break;
-            
-        case "2023-08-05":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 05/08/2023 💗</p>`;
-            break;
-
-
-        case "2023-08-08":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-
-            dia.innerHTML = `<p>Date 08/08/2023 💗</p>`;
-            break;
-
-        case "2023-08-11":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-    
-            dia.innerHTML = `<p>Date 11/08/2023 💗</p>`;
-            break;
-
-        case "2023-08-15":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-        
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-        
-            dia.innerHTML = `<p>Date 15/08/2023 💗</p>`;
-            break;
-       
-        case "2023-08-18":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-            
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-            
-            dia.innerHTML = `<p>Date 18/08/2023 💗</p>`;
-            break;
-      
-        case "2023-08-20":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                
-            dia.innerHTML = `<p>Date 20/08/2023 💗</p>`;
-            break;
-
-        case "2023-08-26":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                
-            dia.innerHTML = `<p>Date 26/08/2023 💗</p>`;
-            break;
-
-        case "2023-08-30":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                
-            dia.innerHTML = `<p>Date 30/08/2023 💗</p>`;
-            break;
-
-        case "2023-09-05":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                
-            dia.innerHTML = `<p>Date 05/09/2023 💗</p>`;
-            break;
-
-        case "2023-09-08":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 08/09/2023 💗</p>`;
-            break;
-
-        case "2023-09-15":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 15/09/2023 💗</p>`;
-            break;
-
-        case "2023-09-28":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 28/09/2023 💗</p>`;
-            break;
-
-        case "2023-10-12":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 12/10/2023 💗</p>`;
-            break;
-
-        case "2023-10-13":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 13/10/2023 💗</p>`;
-            break;
-
-        case "2023-10-28":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 28/10/2023 💗</p>`;
-            break;
-
-        case "2023-10-30":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 30/10/2023 💗</p>`;
-            break;
-
-        case "2023-11-03":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 03/11/2023 💗</p>`;
-            break;
-
-        case "2023-11-08":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 08/11/2023 💗</p>`;
-            break;
-
-        case "2023-11-14":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 14/11/2023 💗</p>`;
-            break;
-
-        case "2023-11-19":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 19/11/2023 💗</p>`;
-            break;
-
-        case "2023-11-20":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 20/11/2023 💗</p>`;
-            break;
-
-        case "2023-12-04":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 04/12/2023 💗</p>`;
-            break;
-
-        case "2023-12-20":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 20/12/2023 💗</p>`;
-            break;
-
-        case "2023-12-25":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 25/12/2023 💗</p>`;
-            break;
-
-        case "2024-01-10":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 10/01/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "2024-00-00":
-            sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
-                    
-            article.style.display = "block";
-            secdate.style.display = "block";
-            sucesso.style.display = "block";
-            texto.innerHTML = `<p>TEXTO NULL</p> <br>`;
-            video.style.display = "none";
-            imagem.src = "../images/date3.png";
-            imagem.style = "width: 100%;"
-                    
-            dia.innerHTML = `<p>Date 00/00/2024 💗</p>`;
-            break;
-
-        case "":
-            window.alert("[ERRO] Inserir Data");
-            break;
-
-        default:
-            secdate.style.display = "none";
-            sucesso.innerHTML = `<p>Date não encontrado.</p>`;
-            break;
+    if (dateValue === "") {
+        window.alert("[ERRO] Inserir Data");
+        return;
+    }
+
+    const dateInfo = dateMap[dateValue];
+    if (dateInfo) {
+        // Exibe os dados da data encontrada
+        exibirDate(dateInfo.diaTexto, dateInfo.textoHTML, dateInfo.videoSrc, dateInfo.imagemSrc);
+    } else {
+        // Caso a data não seja encontrada
+        secdate.style.display = "none";
+        sucesso.innerHTML = `<p>Date não encontrado.</p>`;
     }
 }

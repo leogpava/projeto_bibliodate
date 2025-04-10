@@ -60,7 +60,6 @@ div#icons {
     transform: scale(1.1);
     margin-left: 45%;
     text-align: right;
-
 }
 
 div#icons a {
@@ -71,6 +70,12 @@ div#icons a {
 
 nav span {
     margin-right: 10px; /* Adicione um espaçamento à direita, se necessário */
+    border-bottom: 0px solid white;
+    transition: 0.5s;
+}
+
+nav span:hover {
+    border-bottom: 1px solid white;
 }
 
 main {
