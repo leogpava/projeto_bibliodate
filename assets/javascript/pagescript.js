@@ -418,6 +418,24 @@ const dateMap = {
         videoSrc: null,
         imagemSrc: "../images/date3.png"
     },
+    "2024-07-06": {
+        diaTexto: "Date 06/07/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-07-13": {
+        diaTexto: "Date 13/07/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-07-27": {
+        diaTexto: "Date 27/07/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
 };
 
 // Função para exibir os dados do "date"
