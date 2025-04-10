@@ -303,7 +303,121 @@ const dateMap = {
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/date3.png"
-    }
+    },
+    "2024-01-11": {
+        diaTexto: "Date 11/01/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-01-14": {
+        diaTexto: "Date 14/01/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-01-16": {
+        diaTexto: "Date 16/01/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-03-28": {
+        diaTexto: "Date 28/03/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-03-29": {
+        diaTexto: "Date 29/03/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-03-30": {
+        diaTexto: "Date 30/03/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-04-15": {
+        diaTexto: "Date 15/04/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-04-20": {
+        diaTexto: "Date 20/04/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-04-28": {
+        diaTexto: "Date 28/04/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-05-08": {
+        diaTexto: "Date 08/05/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-05-08": {
+        diaTexto: "Date 08/05/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-05-22": {
+        diaTexto: "Date 22/05/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-05-30": {
+        diaTexto: "Date 30/05/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-05-31": {
+        diaTexto: "Date 31/05/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-06-04": {
+        diaTexto: "Date 04/06/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-06-12": {
+        diaTexto: "Date 12/06/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-06-12": {
+        diaTexto: "Date 12/06/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-06-23": {
+        diaTexto: "Date 23/06/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-06-29": {
+        diaTexto: "Date 29/06/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
 };
 
 // Função para exibir os dados do "date"
