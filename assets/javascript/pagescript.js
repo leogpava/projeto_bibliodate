@@ -302,253 +302,247 @@ const dateMap = {
         diaTexto: "Date 10/01/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/janeiro10.png"
     },
     "2024-01-11": {
         diaTexto: "Date 11/01/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/janeiro11.png"
     },
     "2024-01-14": {
         diaTexto: "Date 14/01/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/janeiro14.png"
+    },
+    "2024-01-15": {
+        diaTexto: "Date 15/01/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/dois/janeiro15.png"
     },
     "2024-01-16": {
         diaTexto: "Date 16/01/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/janeiro16.png"
     },
     "2024-03-28": {
         diaTexto: "Date 28/03/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/marco28.png"
     },
     "2024-03-29": {
         diaTexto: "Date 29/03/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/marco29.png"
     },
     "2024-03-30": {
         diaTexto: "Date 30/03/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/30marco.mp4",
+        imagemSrc: null
     },
     "2024-04-15": {
         diaTexto: "Date 15/04/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/abril15.png"
     },
     "2024-04-20": {
         diaTexto: "Date 20/04/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/abril20.png"
     },
     "2024-04-28": {
         diaTexto: "Date 28/04/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/abril28.png"
     },
     "2024-05-08": {
         diaTexto: "Date 08/05/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
-    },
-    "2024-05-08": {
-        diaTexto: "Date 08/05/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/maio8.png"
     },
     "2024-05-22": {
         diaTexto: "Date 22/05/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/maio22.png"
     },
     "2024-05-30": {
         diaTexto: "Date 30/05/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/30maio.mp4",
+        imagemSrc: null
     },
     "2024-05-31": {
         diaTexto: "Date 31/05/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/maio31.png"
     },
     "2024-06-04": {
         diaTexto: "Date 04/06/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/junho4.png"
     },
     "2024-06-12": {
         diaTexto: "Date 12/06/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
-    },
-    "2024-06-12": {
-        diaTexto: "Date 12/06/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/junho12.png"
     },
     "2024-06-23": {
         diaTexto: "Date 23/06/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/junho23.png"
     },
     "2024-06-29": {
         diaTexto: "Date 29/06/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/29junho_2.mp4",
+        imagemSrc: null
     },
     "2024-07-06": {
         diaTexto: "Date 06/07/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/julho6.png"
     },
     "2024-07-13": {
         diaTexto: "Date 13/07/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/julho13.png"
     },
     "2024-07-27": {
         diaTexto: "Date 27/07/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/julho27.png"
     },
     "2024-08-04": {
         diaTexto: "Date 04/08/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/agosto4.png"
     },
     "2024-08-20": {
         diaTexto: "Date 20/08/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/20ago.mp4",
+        imagemSrc: null
     },
     "2024-08-24": {
         diaTexto: "Date 24/08/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/agosto24.png"
     },
     "2024-08-30": {
         diaTexto: "Date 30/08/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/agosto30.png"
     },
     "2024-09-21": {
         diaTexto: "Date 21/09/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/21setembro.mp4",
+        imagemSrc: null
     },
     "2024-10-12": {
         diaTexto: "Date 12/10/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/outubro12.png"
     },
     "2024-10-26": {
         diaTexto: "Date 26/10/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/outubro26.png"
     },
     "2024-10-30": {
         diaTexto: "Date 30/10/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/30outubro.mp4",
+        imagemSrc: null
     },
     "2024-12-01": {
         diaTexto: "Date 01/12/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/dezembro1.png"
     },
     "2024-12-06": {
         diaTexto: "Date 06/12/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/dezembro6.png"
     },
     "2024-12-11": {
         diaTexto: "Date 11/12/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/dezembro11.png"
     },
     "2024-12-24": {
         diaTexto: "Date 24/12/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/24dezembro.mp4",
+        imagemSrc: null
     },
     "2024-12-25": {
         diaTexto: "Date 25/12/2024 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/dezembro25.png"
     },
     "2025-01-01": {
         diaTexto: "Date 01/01/2025 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/janeiro1.png"
     },
     "2025-01-08": {
         diaTexto: "Date 08/01/2025 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/8janeiro.mp4",
+        imagemSrc: null
     },
     "2025-02-06": {
         diaTexto: "Date 06/02/2025 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/6fevereiro.mp4",
+        imagemSrc: null
     },
     "2025-02-23": {
         diaTexto: "Date 23/02/2025 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/fevereiro23.png"
     },
     "2025-03-05": {
         diaTexto: "Date 05/03/2025 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dois/marco5.png"
     },
     "2025-04-06": {
         diaTexto: "Date 06/04/2025 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/6abril.mp4",
+        imagemSrc: null
     },
 };
 
