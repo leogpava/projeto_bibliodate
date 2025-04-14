@@ -79,8 +79,8 @@ const dateMap = {
     "2023-06-08": {
         diaTexto: "Date 08/06/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/junho8.mp4",
+        imagemSrc: null
     },
     "2023-06-12": {
         diaTexto: "Date 12/06/2023 💗",
