@@ -544,6 +544,12 @@ const dateMap = {
         videoSrc: null,
         imagemSrc: "../images/date3.png"
     },
+    "2025-04-06": {
+        diaTexto: "Date 06/04/2025 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
 };
 
 // Função para exibir os dados do "date"
