@@ -140,163 +140,163 @@ const dateMap = {
         diaTexto: "Date 20/07/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/julho20.png"
     },
     "2023-07-23": {
         diaTexto: "Date 23/07/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/julho23.png"
     },
     "2023-07-26": {
         diaTexto: "Date 26/07/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/julho26.png"
     },
     "2023-08-05": {
         diaTexto: "Date 05/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/5agosto.mp4",
+        imagemSrc: null
     },
     "2023-08-08": {
         diaTexto: "Date 08/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/agosto8.png"
     },
     "2023-08-11": {
         diaTexto: "Date 11/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/agosto11.png"
     },
     "2023-08-15": {
         diaTexto: "Date 15/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/agosto15.png"
     },
     "2023-08-18": {
         diaTexto: "Date 18/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/agosto18.png"
     },
     "2023-08-20": {
         diaTexto: "Date 20/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/20agosto.mp4",
+        imagemSrc: null
     },
     "2023-08-26": {
         diaTexto: "Date 26/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/agosto26.png"
     },
     "2023-08-30": {
         diaTexto: "Date 30/08/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/agosto30.png"
     },
     "2023-09-05": {
         diaTexto: "Date 05/09/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/setembro5.png"
     },
     "2023-09-08": {
         diaTexto: "Date 08/09/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/setembro8.png"
     },
     "2023-09-15": {
         diaTexto: "Date 15/09/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/setembro15.png"
     },
     "2023-09-28": {
         diaTexto: "Date 28/09/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/setembro28.png"
     },
     "2023-10-12": {
         diaTexto: "Date 12/10/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/outubro12.png"
     },
     "2023-10-13": {
         diaTexto: "Date 13/10/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/outubro13.png"
     },
     "2023-10-28": {
         diaTexto: "Date 28/10/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/outubro28.png"
     },
     "2023-10-30": {
         diaTexto: "Date 30/10/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/outubro30.png"
     },
     "2023-11-03": {
         diaTexto: "Date 03/11/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/novembro3.png"
     },
     "2023-11-08": {
         diaTexto: "Date 08/11/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/novembro8.png"
     },
     "2023-11-14": {
         diaTexto: "Date 14/11/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/novembro14.png"
     },
     "2023-11-19": {
         diaTexto: "Date 19/11/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/novembro19.png"
     },
     "2023-11-20": {
         diaTexto: "Date 20/11/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/20novembro.mp4",
+        imagemSrc: null
     },
     "2023-12-04": {
         diaTexto: "Date 04/12/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/4dezembro.mp4",
+        imagemSrc: null
     },
     "2023-12-20": {
         diaTexto: "Date 20/12/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dezembro20.png"
     },
     "2023-12-25": {
-        diaTexto: "Date 25/12/2023 💗",
+        diaTexto: "Date 25/12/2023 🎄",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/dezembro25.png"
     },
     "2024-01-10": {
         diaTexto: "Date 10/01/2024 💗",
