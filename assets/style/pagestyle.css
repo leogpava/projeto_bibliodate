@@ -185,7 +185,9 @@ button:hover {
 section#res {
     display: none; /* Inicialmente escondido */
     background-color: transparent;
-    background: rgba(243, 124, 180, 0.274);
+    background: rgba(238, 172, 203, 0.274);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -196,8 +198,8 @@ section#res article {
     display: none; /* Inicialmente escondido */
     border-radius: 40px 40px 0px 0px;
     padding: 20px;
-    color: #fde4f2;
-    background-color: #ac166b;
+    color: #b66995;
+    background-color: #fff6fb;
 }
 
 section article {
@@ -205,7 +207,7 @@ section article {
     border-radius: 40px 40px 0px 0px;
     padding: 20px;
     color: #fde4f2;
-    background: linear-gradient( #fd9bce 5%, #963f66 100%);
+    background: linear-gradient( #ffeaf5 5%, #d4aebf 100%);
     background-color: #ac166b;
 }
 

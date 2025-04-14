@@ -47,10 +47,10 @@ const dateMap = {
         imagemSrc: null
     },
     "2023-05-11": {
-        diaTexto: "Date 11/05/2023 💗",
-        textoHTML: `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
-                    <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
-                    <p>Aqui temos o único registro decente desse dia:</p>`,
+        diaTexto: "Date 11/05/2023 🎥",
+        textoHTML: `<p>Depois de eu pensar que tomaria bolo, nós tivemos o nosso primeiro date a sós.</p> <br>
+                    <p>Apesar de eu estar muito feliz de estar com você, o meu silêncio ficou claro, mas você me completou com suas fofocas e conversas incríveis. Nesse dia eu percebi que apesar de cedo, já estava apaixonado por você, e que era você quem eu queria para mim. </p>  <br>
+                    <p>Essa foi uma das nossas primeiras fotos:</p>`,
         videoSrc: null,
         imagemSrc: "../images/date1.png"
     },
@@ -63,22 +63,31 @@ const dateMap = {
         imagemSrc: "../images/date2.png"
     },
     "2023-05-27": {
-        diaTexto: "Date 27/05/2023 💗",
-        textoHTML: `<p>Esse foi o dia em que nos vimos pessoalmente pela primeira vez.</p> <br>
-                    <p>Quem diria que depois de todo o nervosismo, das risadas, os tucs e das piadas de mau gosto estaríamos aqui, não é? Sem dúvidas, foi um dos principais dias na nossa história, e devo dizer que não me arrependo de nada nesse dia, e o guardo com muito amor no meu coração. </p>  <br>
-                    <p>Aqui temos o único registro decente desse dia:</p>`,
+        diaTexto: "Date 27/05/2023 🌽",
+        textoHTML: `<p>Festa junina e dançaaaaaaa.</p> <br>
+                    <p>Conheci sua escola nesse dia, além de ter quase me matado de ciúmes (com razão) Acontece que acabou que foi legal, já que foi o primeiro dia em que estávamos juntos como um casal. Ah é, nesse dia também ganhei minha aliança de ficante (o elástico de cabelo). </p>  <br>
+                    <p>Se liga na aliança do pai:</p>`,
         videoSrc: null,
         imagemSrc: "../images/date3.png"
     },
+    "2023-05-28": {
+        diaTexto: "Date 28/05/2023 💗",
+        textoHTML: `<p>DUAS HORAS DE ATRASO!!</p> <br>
+                    <p>Nesse dia eu descobri o que era namorar com você, até porque você não mudou nadinha nesses dois anos. Atrasou DUAS horas quando veio conhecer os meus pais, e eu fiquei muito puto. Tirando isso, eu fiquei super feliz de você estar aqui comigo e almoçando na minha casa pela primeira vez. </p>  <br>
+                    <p>Mas sério, eu fiquei muito puto.</p>`,
+        videoSrc: null,
+        imagemSrc: "../images/maio28.png"
+    },
     "2023-06-01": {
-        diaTexto: "Date 01/06/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        diaTexto: "Date 01/06/2023 🕷️",
+        textoHTML: `<p>Homem-aranha, Homem-aranha, a Nicole me ama!</p> <br>
+                    <p>Nossas sessões de cinema continuaram, mas dessa vez sem muita falação, já que eu tava doido pra ver o filme do Aranhaverso (que realmente foi muito legal) e estar na sua companhia foi melhor ainda, já que você realmente é a melhor companheira que eu poderia ter. Você conheceu um pouquito do meu lado nerd, e mesmo assim continuou comigo, então tá ótimo!</p> `,
         videoSrc: null,
         imagemSrc: "../images/date4.png"
     },
     "2023-06-08": {
         diaTexto: "Date 08/06/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Segunda vez que você veio para a minha casa, e foi incrível mais uma vez. Descobertas, se você bem me entende, e também eu pude finalmente dizer que te amo pela primeira vez, ás 15:50 dessa tarde tão linda.</p> <br>`,
         videoSrc: "../videos/junho8.mp4",
         imagemSrc: null
     },
