@@ -436,6 +436,114 @@ const dateMap = {
         videoSrc: null,
         imagemSrc: "../images/date3.png"
     },
+    "2024-08-04": {
+        diaTexto: "Date 04/08/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-08-20": {
+        diaTexto: "Date 20/08/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-08-24": {
+        diaTexto: "Date 24/08/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-08-30": {
+        diaTexto: "Date 30/08/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-09-21": {
+        diaTexto: "Date 21/09/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-10-12": {
+        diaTexto: "Date 12/10/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-10-26": {
+        diaTexto: "Date 26/10/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-10-30": {
+        diaTexto: "Date 30/10/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-12-01": {
+        diaTexto: "Date 01/12/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-12-06": {
+        diaTexto: "Date 06/12/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-12-11": {
+        diaTexto: "Date 11/12/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-12-24": {
+        diaTexto: "Date 24/12/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2024-12-25": {
+        diaTexto: "Date 25/12/2024 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2025-01-01": {
+        diaTexto: "Date 01/01/2025 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2025-01-08": {
+        diaTexto: "Date 08/01/2025 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2025-02-06": {
+        diaTexto: "Date 06/02/2025 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2025-02-23": {
+        diaTexto: "Date 23/02/2025 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
+    "2025-03-05": {
+        diaTexto: "Date 05/03/2025 💗",
+        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/date3.png"
+    },
 };
 
 // Função para exibir os dados do "date"
