@@ -93,13 +93,15 @@ const dateMap = {
     },
     "2023-06-12": {
         diaTexto: "Date 12/06/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>O primeiro de todos os dias dos namorados.</p> <br>
+                    <p>Fiquei montando um presente inesquecível durante um bom tempo. Muitas ideias, e muitas coisas feitas a mão (as quais eu tinha um total de zero de habilidade para fazer) No final tudo deu certo, e fomos no Hippos ter um datezinho. Te dei flores pela primeira vez, conversamos muito em casa, ganhei um presente incrível e no final tudo foi absurdamente incrível.</p>`,
         videoSrc: null,
         imagemSrc: "../images/date5.png"
     },
     "2023-06-17": {
         diaTexto: "Date 17/06/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Primeira vez que você foi em uma festa de família!</p> <br>
+                    <p>Como dois pombinhos emocionados, te chamei para ir conhecer minha vó e ir no aniversário dela, em uma pizzaria muito gostosa. Foi ótimo ter você comigo durante um jantar em família, até porque você estava se tornando isso para mim: família.</p>`,
         videoSrc: null,
         imagemSrc: "../images/junho17.png"
     },

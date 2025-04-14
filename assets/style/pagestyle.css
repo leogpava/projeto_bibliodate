@@ -230,7 +230,7 @@ section#biblio p {
 img#innerimg {
     display: block;
     margin: auto;
-    padding: 10px;
+    margin-top: 15px;
 }
 
 h3#dia {
@@ -241,7 +241,7 @@ h3#dia {
 
 p#para {
     padding: 5px;
-    text-align: justify;
+    text-align: left;
 }
 
 video#video {
