@@ -86,55 +86,55 @@ const dateMap = {
         diaTexto: "Date 12/06/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/date5.png"
     },
     "2023-06-17": {
         diaTexto: "Date 17/06/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/junho17.png"
     },
     "2023-06-22": {
         diaTexto: "Date 22/06/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/junho22.png"
     },
     "2023-06-24": {
         diaTexto: "Date 24/06/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/24junho.mp4",
+        imagemSrc: null
     },
     "2023-06-29": {
         diaTexto: "Date 29/06/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
-        videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        videoSrc: "../videos/29junho.mp4",
+        imagemSrc: null
     },
     "2023-07-07": {
         diaTexto: "Date 07/07/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/julho7.png"
     },
     "2023-07-08": {
         diaTexto: "Date 08/07/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/julho8.png"
     },
     "2023-07-09": {
         diaTexto: "Date 09/07/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/julho9.png"
     },
     "2023-07-10": {
         diaTexto: "Date 10/07/2023 💗",
         textoHTML: `<p>TEXTO NULL</p> <br>`,
         videoSrc: null,
-        imagemSrc: "../images/date3.png"
+        imagemSrc: "../images/julho10.png"
     },
     "2023-07-20": {
         diaTexto: "Date 20/07/2023 💗",
