@@ -107,25 +107,29 @@ const dateMap = {
     },
     "2023-06-22": {
         diaTexto: "Date 22/06/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>CU DO THANOS</p> <br>
+                    <p>Foi um dia de conhecer tartaruga e tomar um delicioso suco de açai (ou pelo menos foi o que eu pensei) Mas chegando lá, foi a coisa mais nojenta e horrorosa que eu tomei em toda a minha vida. (e que parecia com o cu do Thanos, imagem autoexlicativa)</p>`,
         videoSrc: null,
         imagemSrc: "../images/junho22.png"
     },
     "2023-06-24": {
-        diaTexto: "Date 24/06/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        diaTexto: "Date 24/06/2023 🌽",
+        textoHTML: `<p>Festa Junina de novo, mas dessa vez foi a minha.</p> <br>
+                    <p>Dancei, passei vergonha na sua frente, e fui maquiado por você. Foi divertido porque você conheceu alguns amigos meus, e foi vez de estarmos de casal na minha escola!</p>`,
         videoSrc: "../videos/24junho.mp4",
         imagemSrc: null
     },
     "2023-06-29": {
         diaTexto: "Date 29/06/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Tenho quase certeza que foi a primeira vez que você foi almoçar comigo na minha vó.</p> <br>
+                    <p>Você levou o Buddy para passear junto comigo, e foi a coisa mais fofa do MUNDO! Eu te amo demais.</p>`,
         videoSrc: "../videos/29junho.mp4",
-        imagemSrc: null
+        imagemSrc: "../images/junho29.png"
     },
     "2023-07-07": {
         diaTexto: "Date 07/07/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Uma viagem MUITO inesperada.</p> <br>
+                    <p>Até hoje não sei como os nossos pais deixaram que eu fosse viajar com você. Duas crianças, que estavam recém "namorando" foram juntos para São Sebastião aproveitar as férias. Esse foi o primeiro dia, e me lembro até hoje do nervosismo em encontrar a D. Hendrika, quem você dizia ser tão brava (e de fato, era mesmo.)</p>`,
         videoSrc: null,
         imagemSrc: "../images/julho7.png"
     },
