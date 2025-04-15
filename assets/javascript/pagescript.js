@@ -21,10 +21,9 @@ if (meses < 0) {
 tempo.innerText = `${diffDays} dias.`;
 
 function change() {
-    tempo.style.fontSize = "18px"; 
-    tempo.style.fontWeight = "300"
+    tempo.style.fontSize = "14px"; 
     tempo.innerText = `${anos} ano(s), ${meses} meses e ${dias} dias.`;
-    document.getElementById("foot").innerHTML = "";
+    document.getElementById("foot").innerHTML = "e daqui para frente será muito mais!";
 }
 
 let secdate = document.getElementById("res");
@@ -563,7 +562,7 @@ const dateMap = {
 
 // Função para exibir os dados do "date"
 function exibirDate(diaTexto, textoHTML, videoSrc = null, imagemSrc = null) {
-    sucesso.innerHTML = `<p>Date encontrado com sucesso! 👇</p>`;
+    sucesso.innerHTML = `<p>Date encontrado com <span>sucesso!</span> 👇</p>`;
     article.style.display = "block";
     secdate.style.display = "block";
     sucesso.style.display = "block";
@@ -581,7 +580,6 @@ function exibirDate(diaTexto, textoHTML, videoSrc = null, imagemSrc = null) {
     if (imagemSrc) {
         imagem.style.display = "block";
         imagem.src = imagemSrc;
-        imagem.style = "width: 100%;";
     } else {
         imagem.style.display = "none";
     }

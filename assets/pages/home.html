@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo & Nic | Home</title>
-    <link rel="stylesheet" href="../style/pagestyle.css">
+    <link rel="stylesheet" href="../style/newpage.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon/borbo.ico" type="image/x-icon">
 </head>
 <body>
     <header> 
         <nav>
-            <h1>Leo & Nic</h1>
             <div id="icons">
                 <a href="../pages/sobre.html"><span class="material-symbols-outlined">
                     partner_exchange
@@ -27,22 +26,39 @@
             </div>
         </nav>
     </header>
+
     <main>
-        <h2>Parabéns, você conseguiu!</h2>
-        <article>
+        <h2>Parabéns, <span id="text">você</span> conseguiu!</h2>
             <p>Mesmo após um desafio para conseguir acessar esse acervo, você finalmente conquistou acesso ao nosso site. Eu sabia que você ia conseguir! Agora, só aproveite o que temos a oferecer, que foi feito  com muito <span>amor</span> e <span>carinho</span>!</p>
-        </article>
-        <img src="../images/nicsemfundo.png" alt="Nicole!" width="150px" id="nic">
-        <article>
-            <div id="contador" onclick="change()">
-                <h2>Eu te amo há:</h2>
-                <p id="tempo"> </p>
-                <p id="foot">clique para ver mais</p>
-            </div>
-        </article>
     </main>
+<div id="show">
+        <article id="slider">
+            <figure>
+                <img src="../images/slides/um.png">
+                <img src="../images/slides/dois.png">
+                <img src="../images/slides/tres.png">
+                <img src="../images/slides/quatro.png">
+                <img src="../images/slides/um.png">
+            </figure>
+        </article>
+</div>
+
+    <article id="cont">
+        <div id="contador" onclick="change()">
+            <h2>Eu te amo há...</h2>
+            <p id="tempo"> </p>
+            <img src="../images/Ativo 5.svg" alt="" id="borbo">
+        </div>
+        <aside>
+            <p id="foot">clique para ver mais</p>
+        </aside>
+    </article>
+
         <section id="biblio">
-            <h3>BiblioDate</h3>
+            <h3>BiblioDate <span class="material-symbols-outlined" id="livro">
+                local_library
+                </span></h3> 
+            <p id="bibi">Agora que completamos <span>2 anos</span> juntos, aproveite a ferramenta que eu desenvolvi, que mostra cerca de 80 dates que tivemos ao longo desses anos!</p>
             <form action="#" method="post">
                 <label for="data">Data do date:</label>
                 <input type="date" id="data" required>
@@ -50,6 +66,7 @@
             </form>
             <p id="sucesso"></p>
         </section>
+
         <section id="res">
             <article>
                 <h3 id="dia">Placeholder</h3>
