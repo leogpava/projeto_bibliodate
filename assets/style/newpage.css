@@ -35,11 +35,9 @@ body {
 
 header { 
     position: sticky;
-        background: rgba(19, 7, 13, 0.363);
+        background: rgba(19, 7, 13, 0.877);
         border-radius: 20px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 178, 203, 0.3);
     width: 150px;
     top: 5%;
