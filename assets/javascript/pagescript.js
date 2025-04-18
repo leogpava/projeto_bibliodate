@@ -134,85 +134,91 @@ const dateMap = {
     },
     "2023-07-08": {
         diaTexto: "Date 08/07/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Esse dia eu conheci o centrinho de São Sebastião. Foi um dia incrível, porque eu tomei aquele maravilhoso sorvete de sonho de valsa que você tanto me falava, e porque foi nosso primeiro passeio em casal viajando. Inesperado, feliz, incrível!</p> <br>
+        <p>Nesse dia também fizemos o nosso quadrinho lindo com as mãos de areia. Foi muito fofo.</p>`,
         videoSrc: null,
         imagemSrc: "../images/julho8.png"
     },
     "2023-07-09": {
         diaTexto: "Date 09/07/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi o meu último dia antes de voltar para casa. Jogamos muito com a Amanda, enquanto tinha os amigos da sua vó lá. Acho que não fizemos muito mais que isso nesse dia.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/julho9.png"
     },
     "2023-07-10": {
         diaTexto: "Date 10/07/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Nesse dia eu fui embora, mas antes nós tentamos assistir ao nascer do sol juntos. Resultado? Céu nublado, sem sol, e você dormiu no meu colo na praia. Não existe tempo ruim com você ao meu lado. </p>`,
         videoSrc: null,
         imagemSrc: "../images/julho10.png"
     },
     "2023-07-20": {
         diaTexto: "Date 20/07/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Já fiquei ansioso só de lembrar. Foi um dos dias mais lindos de toda a nossa história. Depois de alguns meses, estávamos de volta no lugar em que nos vimos pela primeira vez, com outras intenções agora.</p> <br>
+        <p>Fomos pintar quadrinhos, mas secretamente eu estava me TREMENDO porque ia te pedir em namoro. Você nem desconfiava. Escrevi o AEDA, e li para você de forma muito nervosa, e então finalmente realizei o que eu tanto queria: te pedir em namoro.</p> <br>
+        <p>Foi a melhor decisão que eu poderia ter tomado, e tudo correu muito bem. Desde esse dia, agora posso te chamar oficialmente de NAMORADA, e futuramente vou chamar de minha esposa!</p>`,
         videoSrc: null,
         imagemSrc: "../images/julho20.png"
     },
     "2023-07-23": {
         diaTexto: "Date 23/07/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Agora oficialmente como namorados, fui conhecer os seus avós e grande parte da sua família. Foi meio complicado, já que eu tinha dormido muuito pouco por causa da formatura, e eu tava bem mal da barriga. Mas foi legal, conversei bastante com o seu vô, e sabia que ele seria meu parceiro!</p>`,
         videoSrc: null,
         imagemSrc: "../images/julho23.png"
     },
     "2023-07-26": {
         diaTexto: "Date 26/07/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Assim como todo casal nesse ano, fomos assistir o bendito filme da Barbie nos cinemas, e obviamente de rooosaaaaa. Amei tirar a sua foto na caixa de boneca Barbie inclusive. Foi um dia bem legal.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/julho26.png"
     },
     "2023-08-05": {
         diaTexto: "Date 05/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Esse foi o dia em que você conheceu os meus padrinhos. Foi muito legal, já que eu queria muito que você conhecesse eles. Você se cagou de medo andando no bondinho, assiste o vídeo que você vai ver KKKKKKKKK</p> <br>`,
         videoSrc: "../videos/5agosto.mp4",
         imagemSrc: null
     },
     "2023-08-08": {
         diaTexto: "Date 08/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Sendo bem sincero, eu não lembro de quem era o aniversário, mas foi da família e você foi comigo. Acho que era da Aninha. Ah, e obviamente foi na GUIDA.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/agosto8.png"
     },
     "2023-08-11": {
         diaTexto: "Date 11/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Depois de alguns meses agora estávamos de volta no açai. Sim, o mesmo que tirei foto tampando sua cara KKKKKKKKKK</p> <br>
+        <p>Um dia antes eu te levei flores aleatoriamente também, mas como foi uma passagem rápida eu não coloquei como date.</p>
+        <p>Nesse dia você também me deu o livro do Chorão, e foi um gesto muito lindo, porque me senti muito amado e reconhecido. Eu te amo muito!</p>`,
         videoSrc: null,
         imagemSrc: "../images/agosto11.png"
     },
     "2023-08-15": {
         diaTexto: "Date 15/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>No começo do namoro nós sempre quisemos ir tomar um café caro em alguma cafeteria superfaturada. Foi isso que fizemos nesse dia. Fomos no Shopping Anália Franco, e comemos um bolo de cenoura delicioso, com uma calda deliciosa, e no final eu paguei uma água de DOZE REAIS.</p><br>
+        <p>Pelo menos o bolo tava uma delicia!</p>`,
         videoSrc: null,
         imagemSrc: "../images/agosto15.png"
     },
     "2023-08-18": {
         diaTexto: "Date 18/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi aniversário da Amanda, e o bolo tava muito delicioso. Daí você decidiu fazer skincare em mim, duas divas. Pelo menos saíram fotos e vídeos muito bons desse dia.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/agosto18.png"
     },
     "2023-08-20": {
         diaTexto: "Date 20/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>BODAS DE <span>BEIJINHOS!</span></p> <br><p>Foi uma das bodas mais legais, você veio em casa e fizemos muitos beijinhos deliciosos.</p>`,
         videoSrc: "../videos/20agosto.mp4",
         imagemSrc: null
     },
     "2023-08-26": {
         diaTexto: "Date 26/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi a primeira vez que você foi no sítio da minha vó Mada. Você tava com medo, mas andou de quadriciclo comigo mesmo assim, e foi um dia bemmmm legal.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/agosto26.png"
     },
     "2023-08-30": {
         diaTexto: "Date 30/08/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Para minha alegria(atual tristeza, decepção, trevas) foi a primeira vez que você usou o manto do colossalMeiras!</p><br><p>Também fomos no Popeyes, e você ficou suuuuuper fofinha com o combo Kids, minha eterna criança.</p>`,
         videoSrc: null,
         imagemSrc: "../images/agosto30.png"
     },
