@@ -272,13 +272,13 @@ const dateMap = {
     },
     "2023-11-03": {
         diaTexto: "Date 03/11/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Jesus APAGA A LUZ... ela é do jeito que eu gosto</p><br><p>Nesse dia quando você veio tava tudo sem luz. São paulo sendo São Paulo. Mesmo assim, ficamos juntos no escuro, aí você decidiu fazer skincare em mim de novo, além de me HUMILHAR indo mostrar para a minha mãe. Faz parte.</p>`,
         videoSrc: null,
         imagemSrc: "../images/novembro3.png"
     },
     "2023-11-08": {
         diaTexto: "Date 08/11/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>MILHARES DE COXINHAS!</p><br><p>Esse dia nós nos empaturramos de coxinha do Ragazzo, já que fomos no famoso rodízio. Teve nhoque e competição de comer coxinhas, a qual eu OBVIAMENTE deixei você ganhar hahahahaha</p>`,
         videoSrc: null,
         imagemSrc: "../images/novembro8.png"
     },
@@ -290,25 +290,25 @@ const dateMap = {
     },
     "2023-11-19": {
         diaTexto: "Date 19/11/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Nesse domingo você foi para casa e simplesmente decidiu que queria jogar Fortnite. Foi MUITO engraçado, mas você realmente quase ganhou, tá de parabéns diva.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/novembro19.png"
     },
     "2023-11-20": {
         diaTexto: "Date 20/11/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Faltando cerca de um mês para o natal, você foi ajudar a minha família a montar a nossa árvore, deixando conosco um pedacinho do seu grande coração. Eu estava super animado para o Natal, e ter você ao meu lado foi a melhor coisa que poderia ter acontecido. Te amo MUITO gatinha.</p> <br>`,
         videoSrc: "../videos/20novembro.mp4",
         imagemSrc: null
     },
     "2023-12-04": {
         diaTexto: "Date 04/12/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>KKKKKKKKKKK EU AMO ESSE VIDEO</p> <br><p>Nesse dia fomos treinar na smartfit com o Rodrigo, e foi muito engraçado. Você tava treinando muito forte com os seus dois kilinhos em cada braço, amor. Pelo menos você compensou no cardio, com essa corrida MARAVILHOSA!</p>`,
         videoSrc: "../videos/4dezembro.mp4",
         imagemSrc: null
     },
     "2023-12-20": {
         diaTexto: "Date 20/12/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>UMA DAS COISAS MAIS LEGAIS QUE FIZEMOS!</p><br><p>Para comemorar o nosso dia 20, decidimos fazer uma coisa incrível: uma casinha de natal de KitKat. Depois de muitas brigas e teimosias na cozinha, saiu uma casinha muito fofa e bonita, feita por nós dois. Tava MUITO gostosa também!</p>`,
         videoSrc: null,
         imagemSrc: "../images/dezembro20.png"
     },
