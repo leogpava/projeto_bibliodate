@@ -224,49 +224,49 @@ const dateMap = {
     },
     "2023-09-05": {
         diaTexto: "Date 05/09/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Se não me engano, foi a primeira vez que fui na casa da sua tia. Eu estava nervoso, claro, como tudo no começo do namoro. Foi desconfortável, mas bastante divertido. Fiquei amassando seus primos no fifa.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/setembro5.png"
     },
     "2023-09-08": {
         diaTexto: "Date 08/09/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>EL CLAAAAAAAASSSSSSSICO</p> <br> <p> Esse dia em particular foi MUITO legal. Fomos juntos comer no Hojiro, e eu tinha preparado nosso albúm oficial da figurinhas do El Classico, que reunia todas as nonssas avaliações de dates que faziamos no começo do namoro. Você estava deslumbrante, e a comida muito boa. No final, tudo foi muito incrível.</p>`,
         videoSrc: null,
         imagemSrc: "../images/setembro8.png"
     },
     "2023-09-15": {
         diaTexto: "Date 15/09/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dia 15 foi a primeira vez que andamos juntos de metrô, em um rolezão para ir na feira da USP. Aprendemos muito, vimos coisas muito legais e tivemos uma tarde incrível juntos. Depois você veio para casa, e dormiu igual um BEBÊ! Foi muito fofinho. </p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/setembro15.png"
     },
     "2023-09-28": {
         diaTexto: "Date 28/09/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dessa vez um date de rotina, mas uma rotina muito legal ao seu lado. Fomos assistir Besouro Azul, e de brinde eu comprei um tênis depois de sair o meu reembolso do golpe do meio do NADA.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/setembro28.png"
     },
     "2023-10-12": {
         diaTexto: "Date 12/10/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Esse foi o dia que cê me fez dar um puta de um tombo no parque, MAS tiramos fotos muito bonitas de casal, foi bem fofo.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/outubro12.png"
     },
     "2023-10-13": {
         diaTexto: "Date 13/10/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Essa foi mais uma de nossas sexta-feiras, mas nos fizemos esse lindos Smore's para comer. Todo momento com você é especial!</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/outubro13.png"
     },
     "2023-10-28": {
         diaTexto: "Date 28/10/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi a primeira feira da sua escola que fui, e marquei presença assistindo a todas as peças que você dirigu. Você sempre foi muito inteligente, e o resultado ficou incrível. Também fiquei zuando com o pessoal lá, e depois ainda comemos no Mc Donalds podre que me fez passar mal.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/outubro28.png"
     },
     "2023-10-30": {
         diaTexto: "Date 30/10/2023 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>ANIVERNICK!</p><br><p>Foi o primeiro feriado internacional da Nicole que eu participei. Mesmo com um dia turbulento, e muitos problemas, seria impossível deixar esse dia TÃO especial passar em branco.</p><br><p>Para começar o dia, te mandei flores inesperadas junto com um querido kitkat, as quais você amou. De noite nós fomos no Outback com os meus pais para comemorar, já que somos quase que a sua segunda família, e foi muito incrível. Ainda me lembro de você morrendo de vergonha no parabéns. Ah é, também teve o bolinho surpresa em casa que minha vó brotou para cantar parabéns também. Foi o primeiro de muitos de seus dias especiais. </p>`,
         videoSrc: null,
         imagemSrc: "../images/outubro30.png"
     },
