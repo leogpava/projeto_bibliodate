@@ -314,43 +314,43 @@ const dateMap = {
     },
     "2023-12-25": {
         diaTexto: "Date 25/12/2023 🎄",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Jingle Bells, Jingle Bells, a Nicole ama o Leo!</p><br><p>Sem dúvidas, um natal inesquecível. Foi o nosso primeiro natal juntos, e não poderia ser melhor. Nesse dia eu te dei o nosso filho de pelúcia, o Leco. Você me deu presentes incríveis, mas nada poderia ser melhor do que a sua ilustre presença na minha vida. Foi para encerrar o ano com chave de ouro.</p>`,
         videoSrc: null,
         imagemSrc: "../images/dezembro25.png"
     },
     "2024-01-10": {
         diaTexto: "Date 10/01/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dessa vez eu estava de volta em São Sebastião, para nossa alegria. Foi o primeiro dia de mais uma viagem juntinhos! Ficamos na praia, me queimei um pouco no primeiro dia, mas você estava maravilhooooooooosa.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/janeiro10.png"
     },
     "2024-01-11": {
         diaTexto: "Date 11/01/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi dia de dar rolê de ônibus no centrinho de são sebas. Tomei um caldo de cana daora na beira da praia esse dia.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/janeiro11.png"
     },
     "2024-01-14": {
         diaTexto: "Date 14/01/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Após alguns dias mais tranquilos, jogando baralho e ficando em casa e na praia, fomos de novo ao centrinho. Estávamos combinando, os dois pombinhos de branco, coisa mais linda. Fomos até o pier dessa vez, onde tava uma baita ventania.</p>`,
         videoSrc: null,
         imagemSrc: "../images/dois/janeiro14.png"
     },
     "2024-01-15": {
         diaTexto: "Date 15/01/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Último diazinho antes de eu ir embora. Nós demos um role na pedra, e ficamos de amores juntinhos lá, comendo ovomaltine rocks. Também comemos carangueijo nesse dia, foi esquisito.</p>`,
         videoSrc: null,
         imagemSrc: "../images/dois/janeiro15.png"
     },
     "2024-01-16": {
         diaTexto: "Date 16/01/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Não foi exatamente um date, mas foi com certeza uma data muito marcante. Eu estava prestes a ir embora, e nós brigamos. Foi nesse dia que eu aprendi a deixar o meu ego de lado, porque nosso relacionamento é muito mais importante que isso. Então ficamos lá, dois chorões na rede apenas aprendendo a se amar da melhor forma possível. Foi muito marcante para mim, porque significou um grande gesto de amor e perdão.</p>`,
         videoSrc: null,
         imagemSrc: "../images/dois/janeiro16.png"
     },
     "2024-03-28": {
         diaTexto: "Date 28/03/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Nossa primeira páscoa juntos foi muito legal! Decidimos fazer ovos um para o outro. Obviamente eu escolhi fazer de KitKat para você, já que é o seu doce favorito, e ficou lindo E gostoso. Você fez o de sensação para mim, porque é a melhor combinação do mundo e ficou DIVINO. Devorei o ovo rapidinho. Amo esses momentos com você!</p>`,
         videoSrc: null,
         imagemSrc: "../images/dois/marco28.png"
     },
