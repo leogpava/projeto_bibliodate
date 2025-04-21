@@ -560,7 +560,7 @@ const dateMap = {
     },
     "2025-02-23": {
         diaTexto: "Date 23/02/2025 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Segundo dos date surpresa, mas dessa vez com uma grande surpresa MESMO: o Carnaval paulista. Fomos de metrô até a paulista (sem eu saber para onde estávamos indo) e nos deparamos com uma galera muito alternativa, dentre todos os tipos que você pode imaginar, indo para o mesmo lugar que nós. Só ai eu já tinha me arrependido de ter ido, e você estava se sentindo super mal, então eu disse para seguirmos, e realmente deu certo. Acontece que paramos em uma sorveteria natureba cheia de sabor alternativo também, que você odiou. Mas tudo bem, porque a melhor parte do date não era essa, mas era o MUSEU DO FUTEBOL.<br><br>Depois de anos eu estava lá mais uma vez, para uma experiência incrível. Vi muito sobre futebol, te contei muito sobre, e no final ainda jogamos muitos jogos lá, incluindo um jogo da velha de futebol, foi MUITO legal, e eu amei esse dia com todas as minhas forças. Você arrasou no date, meu amor!</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/fevereiro23.png"
     },
