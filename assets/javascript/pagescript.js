@@ -517,13 +517,13 @@ const dateMap = {
     },
     "2024-12-06": {
         diaTexto: "Date 06/12/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Mais um aquecimento de natal especial com você, onde você ajudou a montar a árvore de casa. Dessa vez enrolamos bastante, mas acabou que quando você veio montamos e ficou linda. Depois de montar a árvore, ainda fizemos cookies DELICIOSOS! (e você zuou o Lipe com aquele video)/p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/dezembro6.png"
     },
     "2024-12-11": {
         diaTexto: "Date 11/12/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi um evento esquisito, mas foi a minha formatura na escola. Você chegou DESLUMBRANTE. Comemos muito salgadinhos, e ainda entramos de graça, então valeu a pena. Fiquei triste que passaram errado a retrospectiva que eu fiz (burros) mas foi um encerramento de ciclo decente. Ainda fomos comer esfiha juntos depois, tava bão demais.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/dezembro11.png"
     },
@@ -535,7 +535,7 @@ const dateMap = {
     },
     "2024-12-25": {
         diaTexto: "Date 25/12/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>TEXTO NULL</p> <br>`, 
         videoSrc: null,
         imagemSrc: "../images/dois/dezembro25.png"
     },
