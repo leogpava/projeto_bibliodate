@@ -427,55 +427,55 @@ const dateMap = {
     },
     "2024-06-23": {
         diaTexto: "Date 23/06/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dia muito especial porque nós fomos até RP comemorar o aniversário do seu avô. Demos uma volta no parque juntos também, sem você me derrubar dessa vez. Particularmente, amo essa foto que estamos com os seus avós.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/junho23.png"
     },
     "2024-06-29": {
         diaTexto: "Date 29/06/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>De volta as festas juninas, mais uma para nós. Dessa vez foi diferente, porque foi muito pessoal. Você conheceu minha família de Guararema, algo que eu nunca imaginei que fosse acontecer. Foi muito divertido, e estávamos lindinhos juntos e combinando. Além da comida estar MUITO boa, é claro.</p> <br>`,
         videoSrc: "../videos/29junho_2.mp4",
         imagemSrc: null
     },
     "2024-07-06": {
         diaTexto: "Date 06/07/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dia de gala, e de casamento. Foi do Bruno e da Bruna, que estavam super lindos, e a festa super incrível. Dançamos, comemos e nos divertimos muito na celebração do casamento deles. Foi o primeiro grande evento em família que estávamos juntos, então acabou sendo super especial. Você também estava deslumbrante.</p> <br>`, 
         videoSrc: null,
         imagemSrc: "../images/dois/julho6.png"
     },
     "2024-07-13": {
         diaTexto: "Date 13/07/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>KKKKKKKKKKK eu rio só de lembrar desse dia. Uma loja de presentes que também é um salão, mas que toca pagode e é apenas um espaço. Chegamos para comemorar o aniversário do seu pai sem ter ideia de onde era, e por isso fui vestido nada a ver com a ocasião. Teorizamos muito com os seus primos, o que foi muito engraçado naquele lugar bizarro. No fim das contas foi legal, e a comida tava bem gostosa também. Seu pai muito fofo no samba.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/julho13.png"
     },
     "2024-07-27": {
         diaTexto: "Date 27/07/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi dia do aniversário da D. Cleide! Também foi a primeira vez que fui no tradicional restaurante da sua família, o Rosas. Nós nos vestimos combinando e estávamos lindos, e sua vó estava uma fofa na comemoração.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/julho27.png"
     },
     "2024-08-04": {
         diaTexto: "Date 04/08/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>A LENDÁRIA FESTA DOS SESSENTÕES <br> <br>Ta aí uma coisa que eu nunca imaginei em fazer na vida. Lá em Santo André, presenciamos a festa dos sessentões, que juntou o seu pai e alguns amigos deles para comemorar os 60 anos. Foi engraçado, mas a festa foi ótima e dançamos muito juntos. Foi muito legal conhecer sua madrinha também.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/agosto4.png"
     },
     "2024-08-20": {
         diaTexto: "Date 20/08/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Para comemorar esse dia, foi vez de irmos no parquinho de diversão do Aricanduva, lá no Playcenter. Eu me diverti muito com você, já que você é a melhor companheira que alguém poderia querer. Amei que você lutou contra o seu medo, e fomos na montanha russa, foi muito legal!</p> <br>`,
         videoSrc: "../videos/20ago.mp4",
         imagemSrc: null
     },
     "2024-08-24": {
         diaTexto: "Date 24/08/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dessa vez foi vez de nós sairmos com os meus dindos, junto do Flavinho é claro. Fomos no Outback, só para passar um tempo juntos e rever eles, coisa que eu não fazia há tempo. Comemos bem, conversamos, e ainda andamos no Jetta do meu Dindo. Foi uma tarde super especial.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/agosto24.png"
     },
     "2024-08-30": {
         diaTexto: "Date 30/08/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Mais intimidade que isso? impossível. <br><br>Fui te apresentar o lendário Furiosos Burger nesse dia, o podrão em baixo de casa, que você DEVOROU. Comeu o bacon duplo, e ainda rachamos a batata grande. Fomos monstruosos-- digo, Furiosos.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/agosto30.png"
     },
