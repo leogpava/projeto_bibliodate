@@ -499,7 +499,7 @@ const dateMap = {
     },
     "2024-10-30": {
         diaTexto: "Date 30/10/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Então finalmente havia chegado o GRANDE DIA! Passei o mês inteiro planejando o dia e o presente para o seu aniversário, que nesse momento estava guardado a sete chaves. Você foi até a minha casa, e fomos no Hojiro almoçar, mas antes eu te dei um buquê muito fofo. Então partirmos à Pinacoteca, para um date cultural que você ama, e realmente foi bem legal. Chegamos lá com tranquilidade, e aproveitamos cada pedacinho do museu, até mesmo do museu bizarro que ficamos com medo do lugar.<br><br>Voltamos para casa, mas minha mãe que nos levou, tocando o parabéns da Xuxa no carro KKKKKKKKKK<br><br>Quando chegamos, tinha uma mini-festinha surpresa planejada para você na minha casa, que foi super fofinha e legal. Você recebeu os seus presentes, e depois te entreguei a encomenda da coruja a sós. Foi muito legal, e um dia inesquecível!</p> <br>`,
         videoSrc: "../videos/30outubro.mp4",
         imagemSrc: null
     },
