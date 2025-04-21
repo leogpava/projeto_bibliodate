@@ -566,13 +566,13 @@ const dateMap = {
     },
     "2025-03-05": {
         diaTexto: "Date 05/03/2025 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Agora era a minha vez de planejar, então fomos para o terceiro date surpresa, e eu escolhi um lugar INCRÍVEL para te levar. Planejei tudinho, toda a rota e comprei tudo antecipado, levando até impresso. Te levei para o Zoológico de São Paulo, onde nós vimos todos os tipos possíveis de animais, e você parecia uma criança animada vendo todos. Sua felicidade não tem preço, e eu amei estar nesse dia com você. Para mim, foi um dos dias mais legais que nós já tivemos juntos, e acredito que para você também!</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/marco5.png"
     },
     "2025-04-06": {
         diaTexto: "Date 06/04/2025 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Depois de quase um ano, você conseguiu ir no sítio de novo, e foi legal. Demos nosso rolê de quadri, e ficamos juntinhos aproveitando um momento longe de tudo, apenas nós dois aproveitando.</p><br>`,
         videoSrc: "../videos/6abril.mp4",
         imagemSrc: null
     },
