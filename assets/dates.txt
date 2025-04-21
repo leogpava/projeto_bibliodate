@@ -1,86 +1,85 @@
-2023-04-28
-2023-05-11
-2023-05-20
-2023-05-27
-2023-05-28
-2023-06-01
-2023-06-08
-2023-06-12
-2023-06-17
-2023-06-22
-2023-06-24
-2023-06-29
-2023-07-07
-2023-07-08
-2023-07-09
-2023-07-10
-2023-07-20
-2023-07-23
-2023-07-26
-2023-08-05
-2023-08-08
-2023-08-11
-2023-08-15
-2023-08-18
-2023-08-20
-2023-08-26
-2023-08-30
-2023-09-05
-2023-09-08
-2023-09-15
-2023-09-28
-2023-10-12
-2023-10-13
-2023-10-28
-2023-10-30
-2023-11-03
-2023-11-08
-2023-11-14
-2023-11-19
-2023-11-20
-2023-12-04
-2023-12-20
-2023-12-25
-2024-01-10
-2024-01-11
-2024-01-14
-2024-01-15
-2024-01-16
-2024-03-28
-2024-03-29
-2024-03-30
-2024-04-15
-2024-04-20
-2024-04-28
-2024-05-08
-2024-05-22
-2024-05-30
-2024-05-31
-2024-06-04
-2024-06-12
-2024-06-23
-2024-06-29
-2024-07-06
-2024-07-13
-2024-07-27
-2024-08-04
-2024-08-20
-2024-08-24
-2024-08-30
-2024-09-21
-2024-10-12
-2024-10-26
-2024-10-30
-2024-12-01
-2024-12-06
-2024-12-11
-2024-12-24
-2024-12-25
-2025-01-01
-2025-01-08
-2025-02-06
-2025-02-23
-2025-03-05
-2025-04-06
-
-## 84 DATAS
+"2023-04-28" 💞 (Primeiro encontro pessoal)
+"2023-05-11" 🎬 (Primeiro date a sós, cinema)
+"2023-05-20" 💓 (Encontro romântico)
+"2023-05-27" 🌽 (Festa junina e dança)
+"2023-05-28" ⏱️ (Atraso de duas horas)
+"2023-06-01" 🕸️ (Filme do Homem-Aranha)
+"2023-06-08" 💘 (Primeiro "eu te amo")
+"2023-06-12" 💝 (Primeiro Dia dos Namorados)
+"2023-06-17" 🍕 (Aniversário da vó/pizzaria)
+"2023-06-22" 🟣 (Açaí roxo/"Cu do Thanos")
+"2023-06-24" 🎭 (Festa junina e maquiagem)
+"2023-06-29" 🐶 (Passeio com o cachorro Buddy)
+"2023-07-07" ✈️ (Viagem inesperada para São Sebastião)
+"2023-07-08" 🍦 (Sorvete no centrinho de São Sebastião)
+"2023-07-09" 🎮 (Jogos com Amanda)
+"2023-07-10" 🌅 (Tentativa de ver o nascer do sol)
+"2023-07-20" 💍 (Pedido de namoro)
+"2023-07-23" 👴 (Conhecendo avós e família)
+"2023-07-26" 💗 (Filme da Barbie no cinema)
+"2023-08-05" 🚡 (Bondinho com padrinhos)
+"2023-08-08" 🎂 (Aniversário na família)
+"2023-08-11" 📚 (Ganhou livro do Chorão)
+"2023-08-15" ☕ (Café caro em cafeteria)
+"2023-08-18" 🧖‍♀️ (Aniversário Amanda e skincare)
+"2023-08-20" 💋 (Bodas de beijinhos)
+"2023-08-26" 🏍️ (Sítio e quadriciclo)
+"2023-08-30" 🐔 (Popeyes e combo kids)
+"2023-09-05" 🎮 (FIFA na casa da tia)
+"2023-09-08" 🍣 (El Classico no Hojiro)
+"2023-09-15" 🚇 (Primeira vez de metrô)
+"2023-09-28" 👟 (Besouro Azul e tênis novo)
+"2023-10-12" 📸 (Fotos bonitas no parque)
+"2023-10-13" 🍫 (S'mores para comer)
+"2023-10-28" 🎭 (Peças dirigidas na escola)
+"2023-10-30" 🎁 (Aniversário da Nicole)
+"2023-11-03" 🕯️ (Apagão e skincare)
+"2023-11-08" 🥟 (Rodízio de coxinhas Ragazzo)
+"2023-11-14" ❓ (Texto NULL)
+"2023-11-19" 🎯 (Fortnite)
+"2023-11-20" 🎄 (Montando árvore de Natal)
+"2023-12-04" 🏋️‍♀️ (Treino na Smartfit)
+"2023-12-20" 🏠 (Casinha de Natal de KitKat)
+"2023-12-25" 🎅 (Primeiro Natal juntos)
+"2024-01-10" 🏖️ (Praia em São Sebastião)
+"2024-01-11" 🚌 (Passeio de ônibus no centrinho)
+"2024-01-14" 🌊 (Ventania no pier)
+"2024-01-15" 🦀 (Carangueijo e pedra)
+"2024-01-16" 🧡 (Reconciliação na rede)
+"2024-03-28" 🐰 (Páscoa e ovos)
+"2024-03-29" 🍕 (Pizza com Gabriel e Victoria)
+"2024-03-30" 🥳 (Festa de aniversário da Giovanna)
+"2024-04-15" 🛍️ (Shopping dia de rotina)
+"2024-04-20" 🔒 (Cadeado de amor em São Roque)
+"2024-04-28" 🌹 (Aniversário de 1 ano)
+"2024-05-08" 🎉 (Aniversário do Leo e festa surpresa)
+"2024-05-22" 🧽 (Mundo do Bob Esponja)
+"2024-05-30" ❄️ (Chocolate quente no frio)
+"2024-05-31" 🦐 (Camarão no Coco Bambu)
+"2024-06-04" 🧙‍♂️ (Harry Potter nos cinemas)
+"2024-06-12" 🍕 (Segundo Dia dos Namorados e pizza)
+"2024-06-23" 🌳 (Aniversário do avô e parque)
+"2024-06-29" 🎡 (Festa junina em Guararema)
+"2024-07-06" 💒 (Casamento do Bruno e Bruna)
+"2024-07-13" 🎵 (Aniversário do pai com pagode)
+"2024-07-27" 👗 (Aniversário da D. Cleide no Rosas)
+"2024-08-04" 🎸 (Festa dos sessentões)
+"2024-08-20" 🎢 (Montanha-russa no Playcenter)
+"2024-08-24" 🍽️ (Outback com padrinhos)
+"2024-08-30" 🍔 (Furiosos Burger)
+"2024-09-21" ✈️ (Hangar 13 e neve na cabeça)
+"2024-10-12" 👶 (Aniversário do João e da Carol)
+"2024-10-26" 🎈 (Pré-comemoração de aniversário)
+"2024-10-30" 🖼️ (Aniversário da Nicole na Pinacoteca)
+"2024-11-28" 🥤 (Milk-shake no shopping)
+"2024-12-01" 👶 (Chá de bebê do Vince)
+"2024-12-06" 🍪 (Árvore de Natal e cookies)
+"2024-12-11" 🎓 (Formatura)
+"2024-12-24" 🎄 (Véspera de Natal)
+"2024-12-25" 🎁 (Natal com a família dela)
+"2025-01-01" 🎆 (Réveillon/Ano Novo)
+"2025-01-08" 🎡 (Cidade das Crianças)
+"2025-02-06" 🎨 (Date surpresa com pintura)
+"2025-02-23" ⚽ (Carnaval e Museu do Futebol)
+"2025-03-05" 🦁 (Zoológico de São Paulo)
+"2025-04-06" 🏍️ (Sítio e quadriciclo novamente)
