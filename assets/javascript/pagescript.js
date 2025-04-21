@@ -356,25 +356,30 @@ const dateMap = {
     },
     "2024-03-29": {
         diaTexto: "Date 29/03/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Com certeza é um dos dates mais aleatórios que nós tivemos. Foi uma sexta-feira santa, e o Gabriel e a Victoria vieram para minha casa. <br><br>
+        Nós jogamos e comemos pizza, e acabou que realmente foi bem legal, apesar de hoje em dia eu estranhar bastante esse acontecimento.</p>`,
         videoSrc: null,
         imagemSrc: "../images/dois/marco29.png"
     },
     "2024-03-30": {
         diaTexto: "Date 30/03/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Também foi um date bem aleatório, já que foi a festa de aniversário da sua amiga Giovanna, e eu acabei que fui junto. <br><br>
+        Cheio de gente que eu não gostava, mas no fim das contas foi bem divertido, e aproveitamos bastante juntos. Inclusive, você tava muiiito gata 
+        </p> <br>`,
         videoSrc: "../videos/30marco.mp4",
         imagemSrc: null
     },
     "2024-04-15": {
         diaTexto: "Date 15/04/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Não tenho muito a dizer sobre esse dia, já que foi um date comum de rotina, só para eu te ver um pouco na semana, mas isso significa muito para mim, porque é sempre você quem eu quero ver quando eu posso. Com você eu não preciso mais de ninguém, mesmo que isso signifique um date mirabolante, ou um dia simples no shopping.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/abril15.png"
     },
     "2024-04-20": {
         diaTexto: "Date 20/04/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dia de bodas diferenciado! Foi um dos nossos dias juntos mais legais. Fomos com os meus pais para São Roque, e eu nem imaginava que os seus pais iam deixar.</p> <br><br>
+        <p>Fomos nas vinícolas, nos vestimos de Chaves, andamos de pedalinho e fomos na tirolesa (depois de você ser muito corajosa.) Por fim nós trancamos o nosso cadeado escrito 15:50, que significa o nosso amor, na ponte com os outros cadeados. No final de tudo ainda passamos na Cacau Show, e você ganhou o tão sonhado Harry Potter.
+        Com certeza um dia para sempre ser lembrado.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/abril20.png"
     },
