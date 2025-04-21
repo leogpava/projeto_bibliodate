@@ -481,19 +481,19 @@ const dateMap = {
     },
     "2024-09-21": {
         diaTexto: "Date 21/09/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dia de rolê chique com os meus pais. Fomos no Hangar 13, um restaurante muito bonito temático de aviação. Aproveitamos a comida maravilhosa, e ainda tomamos sorvete (depois de tomarmos neve na cabeça.) Depois passeamos pelo centrinho de Guararema, e comemos pipoca doce! </p> <br>`,
         videoSrc: "../videos/21setembro.mp4",
         imagemSrc: null
     },
     "2024-10-12": {
         diaTexto: "Date 12/10/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi dia de festinha com sua família. Date simples, maas foi bem legal estar com você no aniversário do João e da Carol. O lugar era bem legal também. Só sei que eu já estava planejando e muito ansioso pelo seu aniversário.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/outubro12.png"
     },
     "2024-10-26": {
         diaTexto: "Date 26/10/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Foi o dia de comemorar o aniversário da garota mais especial do mundo! Uma comemoração antecipada, mas misturamos a minha e sua família no Rosas, para celebrar essa data maravilhosa que estava chegando, o seu aniversário. Levamos um balão enorme, e você ficou rosa de vergonha, foi muito fofo. Você ganhou muitos presentes, comemos comida boa, e ficamos muito felizes de estarmos ali com você em um dia tão especial! Eu amo o seu aniversário, e amo você ainda mais. </p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/outubro26.png"
     },
