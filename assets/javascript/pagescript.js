@@ -529,31 +529,32 @@ const dateMap = {
     },
     "2024-12-24": {
         diaTexto: "Date 24/12/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Graças a Deus, mais uma véspera de Natal especial com minha princesa ao meu lado. Foi uma noite mágica de natal, sendo o nosso segundo juntos. Trocamos presentes incríveis, mas o mais importante foi estar com você nessa data.</p> <br>`,
         videoSrc: "../videos/24dezembro.mp4",
         imagemSrc: null
     },
     "2024-12-25": {
         diaTexto: "Date 25/12/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`, 
+        textoHTML: `<p>Então foi o dia do natal, o primeiro que passei com a sua família. Foi diferente de todos os natais que eu já tive, até porque é outra vibe tua família, mas foi legal, eu estava com você então fiquei feliz.</p> <br>`, 
         videoSrc: null,
         imagemSrc: "../images/dois/dezembro25.png"
     },
     "2025-01-01": {
         diaTexto: "Date 01/01/2025 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Vamos considerar o dia primeiro como o reveillon também, porque é praticamente a mesma data. Essa festa foi muito legal, estávamos no prédio do seu pai, onde o lugar é lindo, ajudei na decoração, levei sobremesa, e nos divertimos a noite toda, até jogando jogos de tabuleiro. Foi o nosso primeiro ano novo juntos, e por isso foi tão especial para mim essa data. Espero que seja o primeiro de todos que estaremos juntos na vida!</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/janeiro1.png"
     },
     "2025-01-08": {
         diaTexto: "Date 08/01/2025 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>No aniversário do Lipe fomos juntos com o meu primo para a Cidade das Crianças, um parque de diversões em São Bernardo super legal. Você desafiou o próprio medo, enfrentando as montanhas-russa dentre outros brinquedos. Foi super especial porque eu me diverti muito com você, e você me acompanhou em tudo.<br><br>
+        Pena que eu não posso voltar lá... </p> <br>`,
         videoSrc: "../videos/8janeiro.mp4",
         imagemSrc: null
     },
     "2025-02-06": {
         diaTexto: "Date 06/02/2025 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Como Janeiro ficou um pouco corrido (e teve muita chuva, que acabou com os meus planos) Fizemos o nosso primeiro date surpresa, planejado inteiramente por mim. Quis te levar no Ceret, onde tivemos espaço e tranquilidade o suficiente para pintarmos dois quadrinhos lindos um para o outro, enquanto fizemos picnic. Eu amei esse dia, e acredito que você também, sendo ele o primeiro date surpresa. Comemos muito nossa.</p> <br>`,
         videoSrc: "../videos/6fevereiro.mp4",
         imagemSrc: null
     },
