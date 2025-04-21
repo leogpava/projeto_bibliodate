@@ -503,9 +503,15 @@ const dateMap = {
         videoSrc: "../videos/30outubro.mp4",
         imagemSrc: null
     },
+    "2024-11-28": {
+        diaTexto: "Date 28/11/2024 💗",
+        textoHTML: `<p>Novembro foi um mês bem tranquilo e sem dates muito expressivos, mas nesse dia fomos juntos no shopping tomar Milk-Shake. Acabou que deu erro no pagamento, e tomamos muiiiiiiiito milkshake. Eu amei, e você também. Amo os dias simples com você.</p> <br>`,
+        videoSrc: null,
+        imagemSrc: "../images/dois/novembro28.png"
+    },
     "2024-12-01": {
         diaTexto: "Date 01/12/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Esse foi o dia em que você virou madrinha!<br><br>Chegamos lá no prédio e tudo estava muito lindo. Salão cheio, pessoal se divertindo, era o chá de bebê do Vince. Nós ficamos conversando bastante, e aproveitando o dia. Também pintamos o body para ele juntos. Então veio a grande revelação de que você seria a madrinha dele e foi super fofo.<br><br>Depois fiquei fazendo o trabalho pesado, mas isso a gente ignora.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/dezembro1.png"
     },
