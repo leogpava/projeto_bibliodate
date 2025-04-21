@@ -385,43 +385,43 @@ const dateMap = {
     },
     "2024-04-28": {
         diaTexto: "Date 28/04/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>FINALMENTE 1 ANO!<br><br>Com muita alegria, completamos um ano nesse dia. Te dei um buquê, e fomos recriar o nosso primeiro date no Ceret. Foi um passeio divertido, mas os nossos planos mudaram aquele dia, já que tivemos que ir até Ribeirão Preto, se não me engano para comemorar o aniversário da Gabi.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/abril28.png"
     },
     "2024-05-08": {
         diaTexto: "Date 08/05/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Meu décimo sétimo aniversário.<br><br>Foi o aniversário MAIS LEGAL que eu ja tive. O dia começo com eu ganhando presentes legais, e depois nós já fomos no grandioso Allianz Parque, onde tivemos um almoço delcioso de comida italiana. Depois fomos conhecer o museu do Palmeiras, onde você gostou muito do que viu, mas infelizmente fico triste porque você virou gambá. Depois fui para casa, comprei o fifa e na hora de ir no Coco Bambu, você apareceu. Então com pistas muito legais, me levou para a festa surpresa MUITO bem planejada, e foi muito incrível. Tudo estava impecável, e você estava maravilhosa. Eu te amo muito!</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/maio8.png"
     },
     "2024-05-22": {
         diaTexto: "Date 22/05/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Mais um dia incrível com você! <br><br>Nós partimos em um rolê de metrô até a fenda do biquíni, no mundo do Bob Esponja. Fomos cedo para não pegar fila, e pegamos o restaurante vazio, o que foi muito bom. A comida estava deliciosa, assim como o sorvete, mas o melhor de tudo foi estar com você ao meu lado. Depois voltamos tranquilos para casa, </p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/maio22.png"
     },
     "2024-05-30": {
         diaTexto: "Date 30/05/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Dessa vez uma quinta-feira com você, dessa vez com um delicioso frio para ficarmos juntinhos. Nós fizemos chocolate quente, e ficamos bemm juntinhos de baixo das cobertas, conversando e aproveitando nosso tempo juntos.</p> <br>`,
         videoSrc: "../videos/30maio.mp4",
         imagemSrc: null
     },
     "2024-05-31": {
         diaTexto: "Date 31/05/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Apesar do meu aniversário ter sido incrível, ainda tava morrendo de vontade de comer um Coco Bambu, então fomos eu, você, minha mãe e minha vó comer um camarão delicioso. Tava tudo incrível, e uma delícia. Foi muito legal ter você junto ali comigo.</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/maio31.png"
     },
     "2024-06-04": {
         diaTexto: "Date 04/06/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>Junto dos seus amigos (foi esquisito) nós fomos assistir HP nos cinemas. Não foi a melhor coisa do mundo para mim, mas depois passamos na máquina de bixinhos e pegamos o querido Jimmy Demetrius/p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/junho4.png"
     },
     "2024-06-12": {
         diaTexto: "Date 12/06/2024 💗",
-        textoHTML: `<p>TEXTO NULL</p> <br>`,
+        textoHTML: `<p>O segundo de todos os dias dos namorados<br>Depois de eu preparar um presente muitooo legal para você, você veio para casa para o nosso date de PIZZA. Primeiro nós trocamos os presentes, onde você me deu todas aquelas coisas fofas e nossa camiseta personalizada, que eu amo. Então te dei a caixa, com nosso quadrinho e o nosso livro tão lindo, inspirado no livro do Chorão que você tinha me dado.<br><br>Daí começamos a produção das pizzas que tinham até cardápio personalizado. Nossa deliciosa toscana com frango com catupiry, que ficou divina, e nossa pizza doce de banofee, maravilhosa também. Foi um date muito divertido, e muiiiiito saboroso!</p> <br>`,
         videoSrc: null,
         imagemSrc: "../images/dois/junho12.png"
     },
