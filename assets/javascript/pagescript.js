@@ -1,5 +1,5 @@
 let contador = document.getElementById("contador");
-let date = new Date("2023-04-24");
+let date = new Date("2023-04-28");
 
 let hoje = new Date();
 let diffTime = hoje - date;

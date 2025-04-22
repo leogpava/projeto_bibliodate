@@ -308,8 +308,14 @@ section#res {
 }
 
 article#datas {
-    margin: auto;
+
+    animation: fade-in 3s ease forwards;
+}
+
+ol {
     padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
     background: rgba(19, 18, 18, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -318,20 +324,21 @@ article#datas {
     width: 90%;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
-    animation: fade-in 3s ease forwards;
-}
-
-ol {
-    margin-left: 18px;
 }
 
 li {
+    margin-left: 20px;
     margin-bottom: 10px;
     font-size: 14px;
     padding-bottom: 3px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.404);
 }
 
+#datas h2 {
+    margin: 10px;
+    margin-left: 25px;
+    font-weight: 800;
+}
 
 
 .container {
