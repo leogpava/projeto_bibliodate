@@ -230,15 +230,28 @@ span#livro {
     color: #ffe7f5;
 }
 
-#bibi {
+.bibi {
     margin: 20px 20px;
     padding: 10px;
-    color: #d3cdd3a6;
+    color: #fceff4f5;
     font-size: 0.9em;
     line-height: 22px;
     text-align: justify;
 }
 
+#b2 { 
+    color: #fceff483;
+    text-align: center;
+    margin-top: -30px;
+}
+
+#b2 a {
+    text-decoration: none;
+    background: -webkit-linear-gradient(right, #e68bbe, #f8589b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
 p#sucesso {
     text-align: center;
@@ -295,6 +308,30 @@ section#res {
     color: #fd6ea9;
 }
 
+article#datas {
+    margin: auto;
+    padding: 20px;
+    background: rgba(19, 18, 18, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    animation: fade-in 3s ease forwards;
+}
+
+ol {
+    margin-left: 18px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.404);
+}
 @keyframes fade {
     0% {
         opacity: 0;
