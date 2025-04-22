@@ -20,9 +20,15 @@
 }
 
 body {
-    background-color: rgb(233, 143, 177);
-    background: radial-gradient(circle, #f4b8da 0%, #f4b8 100%); /* Adicione esta linha */
+    background-color: #040404;
+    background-image: url(../images/screen.png);
+    background-size: cover;
 }
+img {
+    width: 300px;
+    margin: 10px auto;
+}
+
 article#msg {
     margin-top: 110px;
     text-align: center;
@@ -34,20 +40,19 @@ article#msg > h1 {
     font-family: "Cinzel";
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 2.1em;
+    font-size: 2em;
     margin-bottom: 10px;
     padding: 10px;
 }
 article#msg > p {
-    margin: auto;
-    font-size: 0.9em;
-    margin-bottom: 50px;
-    width: 360px;
+    margin: 10px auto;
+    font-size: 14px;
+    width: 310px;
     font-weight: 300;
 }
 article#form {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 70vw;
@@ -118,6 +123,14 @@ button:hover {
     color: white;
     font-size: 1.2em;
     bottom: 10px;
+}
+
+span {
+    background: -webkit-linear-gradient(right, #e68bbe, #f8589b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 0.5s;
 }
 
 
