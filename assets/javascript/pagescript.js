@@ -576,6 +576,12 @@ const dateMap = {
         videoSrc: "../videos/6abril.mp4",
         imagemSrc: null
     },
+    "2025-04-29": {
+        diaTexto: "Date 29/04/2025 🖼️",
+        textoHTML: `<p>Nosso então date de 2 anos de namoro, e também o date surpresa do mês de Abril!</p><br><p>Fomos até a paulista, tudo organizado por você (que acertou tudo dessa vez), onde fomos primeiro no Itaú, onde gravamos o vídeo em questão (o melhor vlog da terra). Depois fomos andando até um lugar supresa, uma cafeteria superfaturada, a Mug, mas muito gostosa. Comemos as divinas tortas de avelã e banoffee, e tomamos chocolate quente e um mochachinno. Então fomos andando até o Masp, que acabamos nos decepcionando um pouco, mas foi divertido da mesma forma!</p><br><p>Na saída enfrentamos a vida de um paulista comum, atravessando o metrô pelo horário de pico e encontrando até o Gabriel. Foi engraçado, e um dia divertido apesar de todo o cansaço.</p>`,
+        videoSrc: "../videos/abril29.mp4",
+        imagemSrc: null
+    },
 };
 
 // Função para exibir os dados do "date"
