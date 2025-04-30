@@ -1,9 +1,9 @@
 let contador = document.getElementById("contador");
-let date = new Date("2023-04-28");
+let date = new Date("2023-04-29");
 
 let hoje = new Date();
 let diffTime = hoje - date;
-let diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); // Converte milissegundos para dias
+let diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)); // Converte milissegundos para dias
 
 let anos = hoje.getFullYear() - date.getFullYear();
 let meses = hoje.getMonth() - date.getMonth();
