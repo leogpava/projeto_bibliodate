@@ -20,10 +20,21 @@ if (meses < 0) {
 
 tempo.innerText = `${diffDays} dias.`;
 
+let clicado = false
+
 function change() {
+    
+    if(clicado === false){
     tempo.style.fontSize = "14px"; 
     tempo.innerText = `${anos} ano(s), ${meses} meses e ${dias} dias.`;
     document.getElementById("foot").innerHTML = "e daqui para frente será muito mais!";
+    clicado = true;
+    } else {
+        tempo.style.fontSize = "25px"; 
+        tempo.innerText = `${diffDays} dias.`;
+        clicado = false;
+    }
+   
 }
 
 let secdate = document.getElementById("res");

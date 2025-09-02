@@ -152,7 +152,7 @@ p#foot {
 
 #borbo {
     position: relative;
-    bottom: 50px;
+    bottom: 46px;
     float: right;
     width: 50px;
     animation: fade-in 1s forwards;
