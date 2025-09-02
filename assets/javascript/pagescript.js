@@ -1,3 +1,5 @@
+document.getElementById("alert-close").addEventListener("click", hideAlert)
+
 let contador = document.getElementById("contador");
 let date = new Date("2023-04-29");
 
@@ -626,17 +628,25 @@ function clicar() {
     data.value = ""; // Limpa o campo de data
 
     if (dateValue === "") {
-        window.alert("[ERRO] Inserir Data");
+        showAlert()
         return;
     }
 
     const dateInfo = dateMap[dateValue];
     if (dateInfo) {
-        // Exibe os dados da data encontrada
         exibirDate(dateInfo.diaTexto, dateInfo.textoHTML, dateInfo.videoSrc, dateInfo.imagemSrc);
     } else {
-        // Caso a data não seja encontrada
         secdate.style.display = "none";
         sucesso.innerHTML = `<p>Date não encontrado.</p>`;
     }
+}
+
+function showAlert() {
+    let alertBox = document.getElementById("custom-alert")
+    alertBox.classList.add("visible")
+}
+
+function hideAlert() {
+    let alertBox = document.getElementById("custom-alert")
+    alertBox.classList.remove("visible")
 }
